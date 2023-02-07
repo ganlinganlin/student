@@ -10,4 +10,4 @@ GDB_PWD = '174456'
 API_PREFIX = '/api/v1/'
 
 # Data-
-FILE_ROOT = 'D:/Code/Python/StudentKG/src/processed_data/'
+FILE_ROOT = './data/'
