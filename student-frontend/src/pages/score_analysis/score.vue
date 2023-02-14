@@ -144,7 +144,7 @@
 				},
 				data: [
 					{
-					value: 50,
+					value: 90,
 					name: 'SCORE'
 					}
 				]

@@ -614,13 +614,13 @@
 								<span class="spp000">报告时间：</span>
 							</el-col>
 							<el-col :span="12" class="yu2">						
-								<span class="spp001">男</span>
+								<span class="spp001">2022-03-10</span>
 							</el-col>
 							<el-col :span="12" class="yu1">						
 								<span class="spp000">报告地点：</span>
 							</el-col>
 							<el-col :span="12" class="yu2">						
-								<span class="spp001">24</span>
+								<span class="spp001">腾讯会议</span>
 							</el-col>
 
 						</el-row>
@@ -647,13 +647,13 @@
 								<span class="spp000">报告时间：</span>
 							</el-col>
 							<el-col :span="12" class="yu2">						
-								<span class="spp001">男</span>
+								<span class="spp001">2022-04-10</span>
 							</el-col>
 							<el-col :span="12" class="yu1">						
 								<span class="spp000">报告地点：</span>
 							</el-col>
 							<el-col :span="12" class="yu2">						
-								<span class="spp001">24</span>
+								<span class="spp001">腾讯会议</span>
 							</el-col>
 
 						</el-row>
@@ -680,13 +680,13 @@
 								<span class="spp000">报告时间：</span>
 							</el-col>
 							<el-col :span="12" class="yu2">						
-								<span class="spp001">男</span>
+								<span class="spp001">2022-05-15</span>
 							</el-col>
 							<el-col :span="12" class="yu1">						
 								<span class="spp000">报告地点：</span>
 							</el-col>
 							<el-col :span="12" class="yu2">						
-								<span class="spp001">24</span>
+								<span class="spp001">腾讯会议</span>
 							</el-col>
 
 						</el-row>
@@ -713,13 +713,13 @@
 								<span class="spp000">报告时间：</span>
 							</el-col>
 							<el-col :span="12" class="yu2">						
-								<span class="spp001">男</span>
+								<span class="spp001">2022-06-10</span>
 							</el-col>
 							<el-col :span="12" class="yu1">						
 								<span class="spp000">报告地点：</span>
 							</el-col>
 							<el-col :span="12" class="yu2">						
-								<span class="spp001">24</span>
+								<span class="spp001">腾讯会议</span>
 							</el-col>
 
 						</el-row>
@@ -731,7 +731,7 @@
 		</el-col>
 		<el-col :span="12">
 
-			<el-card class="box-card000" style="width: 600px;height: 280px;">
+			<el-card class="box-card000" style="width: 500px;height: 240px;">
 				<div class="tre02">
 
 				<div  id="tre02" style="height: 280px;">
@@ -740,8 +740,8 @@
 				</div>
 			</el-card >
 			
-			<el-card class="box-card001" style="width: 600px;height: 360px;">
-				<div  id="tre03" style="height: 360px;">
+			<el-card class="box-card001" style="width: 500px;height: 240px;">
+				<div  id="tre03" style="width: 500px;height: 260px;">
 
 				</div>
 
@@ -884,51 +884,51 @@
 	}
 	.box-card000 {
 		border-radius: 3%;
-		 padding:20px;
-		 height: 260px;		
-		 margin-top: 10px;
-		 margin-left: 60px;
+		padding:20px;
+		height: 200px;		
+		margin-top: 10px;
+		margin-left: 20px;
 
 	}
 	.box-card001 {
 		border-radius: 3%;
 		margin-top: 10px;
 		padding:20px;
-		margin-left: 60px;
+		margin-left: 20px;
 
 	}
 	.boxcard2{
 		width: 75%;
-		height: 320px;
+		height: 260px;
 		background-color: #A24536;
 		margin: auto;
 		margin-top: 20px;
-
+		margin-left: 40px;
 		border-radius: 6%;
 
 	}
 	
 	.boxcard3{
 		width: 75%;
-		height: 320px;
+		height: 260px;
 		background-color: #A24536;
 		margin-top: 30px;
-		margin-left: 50px;
+		margin-left: 40px;
 		border-radius: 6%;
 
 	}
 
 	.tubiao{
-		height: 100px;
+		height: 90px;
 		background-color: #BE4E3A;
 		border-radius: 0 0 36% 36%;
 	}
 	.el-icon-circle-check{
-		font-size: 40px;
+		font-size: 36px;
 		color: #fff;
-		width: 50px;
-		height: 50px;
-		line-height: 50px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
 
 		justify-content: center;
 
@@ -966,36 +966,39 @@
 	}
 
 	.yu00{
-		font-size: 24px;
+		font-size: 20px;
 		color: #fff;
 	}
 	.yu0{
-		font-size: 20px;
+		font-size: 18px;
 		color: #fff;
+		margin-left: 6px;
+		margin-right: 6px;
+
 
 	}
 	.yu1 {
 			border-right: 1px solid #ccc;
-			margin-top: 20px;
+			margin-top: 15px;
 
 		}
 	.yu2 {
-		margin-top: 20px;
+		margin-top: 15px;
 
 	}
 	.spp000 {
-		margin-top: 20px;
-		line-height: 36px;
-		font-size: 18px;
+		margin-top: 12px;
+		line-height: 15px;
+		font-size: 15px;
 		color: #F1A640;
 		text-align:left;
 		/* border-bottom: 1px solid #ccc; */
 
 		}
 		.spp001 {
-		margin-top: 10px;
-		line-height: 36px;
-		font-size: 18px;
+		margin-top: 12px;
+		line-height: 15px;
+		font-size: 15px;
 		color: #FAE54D;
 		text-align:left;
 		/* border-bottom: 1px solid #ccc; */

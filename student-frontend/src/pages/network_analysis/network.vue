@@ -40,11 +40,11 @@
 
 			</div>
 
-			<el-card class="card4" style="height:420px">
+			<el-card class="card4" style="height:360px">
 
-				<el-main class="chart000" style="width: 100%;height: 400px;">
+				<el-main class="chart000" style="width: 100%;height: 340px;">
 
-				<div  id="tre01" style="width: 100%;height: 360px;">
+				<div  id="tre01" style="width: 100%;height: 300px;">
 
 				</div>
 				</el-main>
@@ -54,17 +54,17 @@
 		</el-col>
 
 		<el-col :span="8">
-			<el-card class="box-card">
+			<el-card class="box-card-0">
 				<div class="tre02">
 
-				<div  id="tre02" style="width: 480px;height: 300px;">
+				<div  id="tre02" style="height: 280px;">
 
 				</div>
 				</div>
 			</el-card >
 			
-			<el-card class="box-card1" >
-				<div  id="tre03" style="width: 480px;height: 400px;">
+			<el-card class="box-card1-0" >
+				<div  id="tre03" style="height: 280px;">
 
 				</div>
 
@@ -158,7 +158,7 @@
 				},
 				data: [
 					{
-					value: 88,
+					value: 80,
 					name: 'SCORE'
 					}
 				]
@@ -355,8 +355,7 @@
 				}
 			]
 			};
-
-option && myChart.setOption(option);
+			option && myChart.setOption(option);
 
 
 			var chartDom = document.getElementById('tre03');
@@ -420,18 +419,24 @@ option && myChart.setOption(option);
 
 <style scoped="scoped">
 
-	.box-card {
+.box-card-0 {
 		border-radius: 3%;
-		 padding:20px;
-		 height: 272px;		
+		 padding:10px;
+		 height:260px;		
 
 	}
-	.box-card1 {
+	.box-card1-0 {
 		border-radius: 3%;
-		margin-top: 30px;
-		padding:20px;
-		height: 380px;
+		margin-top: 10px;
+		padding:25px;
+		height: 260px;
 	}
+/* 	
+	.tre02 {
+			weight: 260px;
+			height: 260px;
+		} */
+
 	.user {
 		display: flex;
 		align-items: center;
@@ -513,36 +518,36 @@ option && myChart.setOption(option);
 		}
 		.el012 {
 			width: 50%;
-			margin-bottom: 20px;
+			margin-bottom: 5px;
 			/* margin-left: 20px; */
-			margin-right: 10px;
+			margin-right: 15px;
 			/* border-radius: 1%; */
 			/* padding:0; */
 		}
 		.el2 {
 			width: 50%;
-			margin-top: 15px;
-			margin-bottom: 20px;
+			margin-top: 12px;
+			margin-bottom: 5px;
 			/* margin-left: 20px; */
-			margin-right: 10px;
+			margin-right: 15px;
 
 		}
 		.el3 {
 			width: 50%;
-			margin-top: 15px;
-			margin-bottom: 20px;
+			margin-top: 12px;
+			margin-bottom: 5px;
 			/* margin-left: 20px;  */
-			margin-right: 10px;
+			margin-right: 15px;
 			justify-content: center;
 
 
 		}
 		.icon {
-			width: 80px;
-			height: 80px;
+			width: 60px;
+			height: 60px;
 			font-size: 30px;
 			text-align: center;
-			line-height: 80px;
+			line-height: 60px;
 			color: #fff;
 		}
 		.detail {
@@ -555,26 +560,23 @@ option && myChart.setOption(option);
 			text-align: center;
 		}
 		.keyy {
-			font-size: 22px;
+			font-size: 18px;
 			color: #999;
 			text-align: center;
 		}
 		.valuee{
-			font-size: 30px;
+			font-size: 24px;
 			margin-bottom: 6px;
 			line-height: 30px;
 			height: 30px;
 			text-align: center;
 		}
-		.tre02 {
-			weight: 400px;
-			height: 300px;
-		}
+
 		.card4 {
-			margin-top: 8px;
-			margin-bottom: 20px;
+			margin-top: 12px;
+			margin-bottom: 10px;
 			/* margin-left: 50px; */
-			margin-right: 10px;
+			margin-right: 15px;
 			border-radius: 2%;
 			padding:0;
 

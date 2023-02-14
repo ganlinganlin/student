@@ -78,7 +78,7 @@
   
   <style>
     .el-menu-vertical-demo:not(.el-menu--collapse) {
-      width: 200px;
+      width: 150px;
       min-height: 400px;
       /* position: fixed; */
       /* border-right: none; */

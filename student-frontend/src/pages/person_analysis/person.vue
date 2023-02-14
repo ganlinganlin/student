@@ -568,13 +568,14 @@
 	} */
 	.box-card {
 		border-radius: 3%;
-		 padding:20px;
+		padding:10px;
 	}
 	.box-card1 {
 		border-radius: 3%;
-		margin-top: 20px;
+		margin-top: 30px;
 		padding:20px;
-		/* height: 200px;		 */
+		/* height: 150px;		 */
+		padding:0;
 	}
 	.user {
 		display: flex;
@@ -587,25 +588,25 @@
 	img {
 		display: flex;
 
-		margin-left: 30px;
-		width: 150px;	
-		height: 150px;
+		margin-left: 15px;
+		width: 100px;	
+		height: 100px;
 		border-radius: 12%;
 		}
 		.name1 {
 			display: flex;
 
-			font-size: 32px;
+			font-size: 24px;
 			width: 100%;
 			margin-bottom: 10px;
-			margin-left: 32px;
+			margin-left: 24px;
 		}
 		.idcard {
 			display: flex;
 
-			font-size: 24px;
+			font-size: 20px;
 			width: 100%;
-			margin-left: 32px;
+			margin-left: 24px;
 			color: #999999;
 		}
 		.sd {
@@ -615,7 +616,7 @@
 			font-size: 14px;
 			color: #999999;
 			text-align: left;
-			margin-left: 30px;
+			margin-left: 6px;
 
 		}
 		.sp {
@@ -628,7 +629,7 @@
 		.spp00 {
 
 			line-height: 36px;
-			font-size: 18px;
+			font-size: 15px;
 			color: #666666;
 			text-align:left;
 			/* border-bottom: 1px solid #ccc; */
@@ -637,7 +638,7 @@
 		.spp01 {
 
 			line-height: 36px;
-			font-size: 18px;
+			font-size: 15px;
 			color: #000000;
 			text-align:left;
 			/* border-bottom: 1px solid #ccc; */
@@ -657,36 +658,36 @@
 		}
 		.el012 {
 			width: 50%;
-			margin-bottom: 20px;
-			margin-left: 50px;
+			margin-bottom: 5px;
+			margin-left: 30px;
 			margin-right: 10px;
 			/* border-radius: 1%; */
 			/* padding:0; */
 		}
 		.el2 {
 			width: 50%;
-			margin-top: 15px;
-			margin-bottom: 20px;
-			margin-left: 50px;
+			margin-top: 12px;
+			margin-bottom: 5px;
+			margin-left: 30px;
 			margin-right: 10px;
 
 		}
 		.el3 {
 			width: 32%;
-			margin-top: 15px;
-			margin-bottom: 20px;
-			margin-left: 50px; 
+			margin-top: 12px;
+			margin-bottom: 5px;
+			margin-left: 30px; 
 			margin-right: 10px;
 			justify-content: center;
 
 
 		}
 		.icon {
-			width: 80px;
-			height: 80px;
+			width: 60px;
+			height: 60px;
 			font-size: 30px;
 			text-align: center;
-			line-height: 80px;
+			line-height: 60px;
 			color: #fff;
 		}
 		.detail {
@@ -699,12 +700,12 @@
 			text-align: center;
 		}
 		.keyy {
-			font-size: 22px;
+			font-size: 18px;
 			color: #999;
 			text-align: center;
 		}
 		.valuee{
-			font-size: 30px;
+			font-size: 24px;
 			margin-bottom: 6px;
 			line-height: 30px;
 			height: 30px;
@@ -713,7 +714,7 @@
 		.card4 {
 			margin-top: 8px;
 			margin-bottom: 20px;
-			margin-left: 50px;
+			margin-left: 30px;
 			margin-right: 10px;
 			border-radius: 2%;
 			padding:0;
